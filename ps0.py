@@ -42,7 +42,7 @@ def sum_less_ints(number):
 #4
 def factorial(number):
 	'''Finds the factorial of a given number.'''
-	numbers = range(1 , number)
+	numbers = range(1 , number + 1)
 	outcome = 1
 	for digit in numbers:
 		outcome *= digit
